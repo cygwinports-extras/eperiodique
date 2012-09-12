@@ -1,0 +1,13 @@
+NAME="eperiodique"
+VERSION=0.3.1
+RELEASE=1
+CATEGORY="Science"
+SUMMARY="Enlightenment periodic table"
+DESCRIPTION="ePeriodique is a graphical application that display the periodic
+table of the elements. It shows basic data for each element, pictures, Bohr
+models and lattice structures. ePeriodique try to use the EFL way and provide
+two themes: one for desktop and one for small displays."
+HOMEPAGE="http://eperiodique.sourceforge.net/"
+SRC_URI="mirror://sourceforge/eperiodique/${NAME}-${VERSION}.tar.bz2"
+
+DEPEND="pkgconfig(elementary)"
